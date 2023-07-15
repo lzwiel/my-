@@ -14,7 +14,7 @@ while True:
         hour = hour - 24
 
     hour = math.floor(hour)  # 去掉小数点，向下取整
-    minute = math.floor(minue)  # 去掉小数点，向下取整
+    minute = math.floor(minute)  # 去掉小数点，向下取整
 
     sys.stdout.write("离十一还有" + str(day) + "天" + str(hour) + "小时" + str(minute) + "分钟" + str(sec) + "秒" + '\r')
     sys.stdout.flush()
